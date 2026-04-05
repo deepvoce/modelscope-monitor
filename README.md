@@ -1,6 +1,6 @@
 # 🔍 ModelScope 额度监控
 
-![Preview](modelscope-monitor.png)
+![Preview](preview.png)
 
 一个轻量级 Flask Web 应用，用于实时探测 **魔搭社区（ModelScope）** API 的模型限额与账号额度。
 
@@ -10,10 +10,6 @@
 - 同时显示**账号级总额度**使用情况
 - 测试 API 连通性，返回模型响应预览
 - 简洁美观的 Web 界面，局域网可访问
-
-![查询结果示例](query-result.png)
-
-*示例：输入模型 ID 后实时显示限额与响应*
 
 ## 🚀 快速开始
 
@@ -82,7 +78,7 @@ systemctl --user start modelscope-monitor.service
 ## ⚙️ 环境变量
 
 | 变量名 | 说明 | 默认值 |
-|--------|------|--------|
+|--------|------|
 | `MS_API_KEY` | ModelScope API Token | 空（必须配置） |
 
 ## ⚠️ 注意事项
