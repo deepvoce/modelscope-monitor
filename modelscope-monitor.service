@@ -1,0 +1,14 @@
+[Unit]
+Description=魔搭API查询服务 (ModelScope Quota Monitor)
+After=network.target
+
+[Service]
+Type=simple
+User=xwl
+WorkingDirectory=/home/xwl/.openclaw/workspace/modelscope-monitor
+ExecStart=/usr/bin/python3 /home/xwl/.openclaw/workspace/modelscope-monitor/app.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
