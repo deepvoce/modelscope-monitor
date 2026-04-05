@@ -1,6 +1,6 @@
 # 🔍 ModelScope 额度监控
 
-![Preview](app-screenshot.png)
+![Preview](app-screenshot.jpg)
 
 一个轻量级 Flask Web 应用，用于实时探测 **魔搭社区（ModelScope）** API 的模型限额与账号额度。
 
